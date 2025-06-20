@@ -1,0 +1,37 @@
+{
+  "name": "claimify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "tsx claimify.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psinha40898/claimify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/psinha40898/claimify/issues"
+  },
+  "homepage": "https://github.com/psinha40898/claimify#readme",
+  "dependencies": {
+    "@ai-sdk/anthropic": "^1.2.12",
+    "@ai-sdk/google": "^1.2.19",
+    "@ai-sdk/groq": "^1.2.9",
+    "@ai-sdk/openai": "^1.3.22",
+    "@ai-sdk/xai": "^1.2.16",
+    "@google/genai": "^1.5.1",
+    "@openrouter/ai-sdk-provider": "^0.7.2",
+    "ai": "^4.3.16",
+    "dotenv": "^16.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.3",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
